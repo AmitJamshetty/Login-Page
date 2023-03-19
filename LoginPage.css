@@ -1,0 +1,153 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+} */
+section{
+    height: 600px;
+    width: 1200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+section>article{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    /* background-color: beige; */
+}
+section>article>#a1{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(34, 34, 34);
+}
+section>article>#a2{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(199, 199, 195);
+}
+section>article>#a1>#a11{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section>article>#a1>#a12{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 15px;
+}
+section>article>#a1>#a13{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(34, 34, 34);
+    border-color: whitesmoke;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border-style: solid;
+    margin-left: 140px;
+}
+section>article>#a2>#a21{
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+section>article>#a2>#a22>#a221{
+    font-size: 25px;
+    margin-left: 250px;
+}
+section>article>#a2>#a22>#a222{
+    font-size: 25px;
+    margin-left: 10px;
+}
+section>article>#a2>#a22>#a223{
+    font-size: 25px;
+    margin-left: 10px;
+}
+section>article>#a2>#a23{
+    color: rgb(110, 108, 108);
+    text-align: center;
+}
+section>article>#a2>#a24{
+    height: 30px;
+    margin-left: 150px;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-bottom: 15px;
+}
+section>article>#a2>#a24>i{
+    padding: 5px;
+    font-size: 13px;
+}
+section>article>#a2>#a24>i>input{
+    margin-left: 10px;
+    background-color: whitesmoke;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+}
+section>article>#a2>#a24>i>input:focus{
+    outline: none;
+}
+section>article>#a2>#a25{
+    height: 30px;
+    margin-left: 150px;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-bottom: 15px;
+}
+section>article>#a2>#a25>i{
+    padding: 5px;
+    font-size: 13px;
+}
+section>article>#a2>#a25>i>input{
+    margin-left: 10px;
+    background-color: whitesmoke;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+}
+section>article>#a2>#a25>i>input:focus{
+    outline: none;
+}
+section>article>#a2>#a26{
+    height: 30px;
+    margin-left: 150px;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-bottom: 15px;
+}
+section>article>#a2>#a26>i{
+    padding: 5px;
+    font-size: 13px;
+}
+section>article>#a2>#a26>i>input{
+    margin-left: 10px;
+    background-color: whitesmoke;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+}
+section>article>#a2>#a26>i>input:focus{
+    outline: none;
+}
+section>article>#a2>#a27{
+    height: 30px;
+    width: 100px;
+    margin-left: 250px;
+    border-radius: 30px;
+    color: white;
+    border-style: solid;
+    background-color: rgb(34, 34, 34);
+}
